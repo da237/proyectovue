@@ -1,27 +1,29 @@
 <template>
 <div>
-    <h1>Tienda online</h1>
+    <p></p>
+    <h5>RECIÉN LLEGADOS</h5>
+    <uno :Nombre="'Fifa 2021'" :Valor="15000" ></uno>
+    <Dos :Nombre="'Mario'" :Valor="18000" ></Dos>
+    <p></p>
+    <h5>PROXIMAMENTE</h5>
+    <Tres :Nombre="'Dixit'" :Valor="12000" ></Tres>
 
-    <img src="../assets/Principal.jpg" alt="hola">
-
-    <uno :Nombre="'Fifa 2021'" :Valor="15000" :imagen=" 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6Iyc5PA9NTv8p6U0n3IryzWwS2ueQXzyFMQ&usqp=CAU '"></uno>
-
+    
+    
 
 </div>
-
-  
 </template>
 
 <script>
 import Uno from '../components/Uno.vue'
-
-
+import Dos from '../components/Dos.vue'
+import Tres from '../components/Tres.vue'
 
 export default {
   name: 'Principal',
   components: {
-    Uno
-  }
+    Uno, Dos,Tres
+  }, 
 }
 
 </script>

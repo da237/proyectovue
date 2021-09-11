@@ -3,15 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="card" style="width: 17rem;">
-              <img src="@/assets/topoum_01.jpg" alt="hola" class="card-img-top" >
-              <div class="card-body">
-                <h5 class="card-title" >{{Nombre}}</h5>
-                <p class="card-text">{{Valor}}</p>
-                <a href="#" class="btn btn-primary">Añadir Carrito</a>
-              </div>
-            </div>
-            <div class="card" style="width: 17rem;">
-              <img src="@/assets/root_01.png" alt="hola" class="card-img-top" >
+              <img src="@/assets/dixit-clasic.png" alt="hola" class="card-img-top" >
               <div class="card-body">
                 <h5 class="card-title">{{Nombre}}</h5>
                 <p class="card-text">{{Valor}}</p>
@@ -19,7 +11,7 @@
               </div>
             </div>
             <div class="card" style="width: 17rem;">
-              <img src="@/assets/peak_oil_01.jpg" alt="hola" class="card-img-top" >
+              <img src="@/assets/dixit-odyssey.png" alt="hola" class="card-img-top" >
               <div class="card-body">
                 <h5 class="card-title">{{Nombre}}</h5>
                 <p class="card-text">{{Valor}}</p>
@@ -27,7 +19,15 @@
               </div>
             </div>
             <div class="card" style="width: 17rem;">
-              <img src="@/assets/pocket_mars_01.jpg" alt="hola" class="card-img-top" >
+              <img src="@/assets/dixit-2-quest.png" alt="hola" class="card-img-top" >
+              <div class="card-body">
+                <h5 class="card-title">{{Nombre}}</h5>
+                <p class="card-text">{{Valor}}</p>
+                <a href="#" class="btn btn-primary">Añadir Carrito</a>
+              </div>
+            </div>
+            <div class="card" style="width: 17rem;">
+              <img src="@/assets/dixit-3-journey.png" alt="hola" class="card-img-top" >
               <div class="card-body">
                 <h5 class="card-title">{{Nombre}}</h5>
                 <p class="card-text">{{Valor}}</p>
@@ -44,7 +44,7 @@
 <script>
 
 export default {
-  name: 'Uno',
+  name: 'Tres',
   data(){
      /* Articulos:[{ 
           imagen: "@/assets/mario.png",
