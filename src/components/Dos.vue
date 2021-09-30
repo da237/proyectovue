@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="card" style="width: 17rem;">
-              <img src="@/assets/fifa22.jpg" alt="hola" class="card-img-top" >
+              <img src="@/assets/dixit-clasic.png" alt="hola" class="card-img-top" >
               <div class="card-body">
                 <h5 class="card-title">{{Nombre}}</h5>
                 <p class="card-text">{{Valor}}</p>
@@ -11,7 +11,7 @@
               </div>
             </div>
             <div class="card" style="width: 17rem;">
-              <img src="@/assets/call_of_duty.jpg" alt="hola" class="card-img-top" >
+              <img src="@/assets/dixit-odyssey.png" alt="hola" class="card-img-top" >
               <div class="card-body">
                 <h5 class="card-title">{{Nombre}}</h5>
                 <p class="card-text">{{Valor}}</p>
@@ -19,7 +19,7 @@
               </div>
             </div>
             <div class="card" style="width: 17rem;">
-              <img src="@/assets/crash_01.jpg" alt="hola" class="card-img-top" >
+              <img src="@/assets/dixit-2-quest.png" alt="hola" class="card-img-top" >
               <div class="card-body">
                 <h5 class="card-title">{{Nombre}}</h5>
                 <p class="card-text">{{Valor}}</p>
@@ -27,7 +27,7 @@
               </div>
             </div>
             <div class="card" style="width: 17rem;">
-              <img src="@/assets/halo.jpg" alt="hola" class="card-img-top" >
+              <img src="@/assets/dixit-3-journey.png" alt="hola" class="card-img-top" >
               <div class="card-body">
                 <h5 class="card-title">{{Nombre}}</h5>
                 <p class="card-text">{{Valor}}</p>
@@ -51,9 +51,13 @@ export default {
           Nombre:'MARIO',
           Valor: 15000
       }]*/
+      
   },
   props:{
-      imagen:{
+      Id:{
+        type: Number,
+      },
+      Url:{
           type: String,
       },
       Nombre:{
@@ -61,7 +65,8 @@ export default {
       },
       Valor:{
           type: Number,
-      }
+      },
+      
   }
 }
 </script>

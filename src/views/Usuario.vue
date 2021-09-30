@@ -1,5 +1,5 @@
 <template>
-  <div class="input-group mb-3 container">
+  <div class="input-group mb-3 container mt-3">
     <div class="input-group-text">
       <form>
         <div class="mb-3">

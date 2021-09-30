@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div col>
+    <div class="mt-3" col>
  
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15863.705921135264!2d-75.59026551511229!3d6.273397812034287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1631252439158!5m2!1ses!2sco" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       <b-form @submit="onSubmit" @reset="onReset" v-if="show">
@@ -66,7 +66,7 @@
           food: null,
           checked: []
         },
-        foods: [{ text: 'Seleccione una', value: null }, 'Proveedor', 'Busca empeleo', 'Quejas', 'Corn'],
+        foods: [{ text: 'Seleccione una', value: null }, 'Proveedor', 'Busca empeleo', 'Quejas', 'Devoluciones'],
         show: true
       }
     },
