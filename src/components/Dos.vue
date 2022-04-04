@@ -3,36 +3,37 @@
     <div class="container">
         <div class="row">
             <div class="card" style="width: 17rem;">
-              <img src="@/assets/topoum_01.jpg" alt="hola" class="card-img-top" >
+              <img src="@/assets/dixit-clasic.png" alt="hola" class="card-img-top" >
               <div class="card-body">
-                <h5 class="card-title">Topoum</h5>
-                <p class="card-text">{{card.valor}}</p>
+                <h5 class="card-title">{{Nombre}}</h5>
+                <p class="card-text">{{Valor}}</p>
                 <a href="#" class="btn btn-primary">Añadir Carrito</a>
               </div>
             </div>
             <div class="card" style="width: 17rem;">
-              <img :src="card.url" alt="hola" class="card-img-top" >
+              <img src="@/assets/dixit-odyssey.png" alt="hola" class="card-img-top" >
               <div class="card-body">
-                <h5 class="card-title" >{{card.nombre}}</h5>
-                <p class="card-text">{{card.valor}}</p>
-                <button class="btn btn-primary">Añadir Carrito</button>
-              </div>
-            </div>
-            <div class="card" style="width: 17rem;">
-              <img src="@/assets/root_01.png" alt="hola" class="card-img-top" >
-              <div class="card-body">
-                <h5 class="card-title">Root</h5>
-                <p class="card-text">{{card.valor}}</p>
+                <h5 class="card-title">{{Nombre}}</h5>
+                <p class="card-text">{{Valor}}</p>
                 <a href="#" class="btn btn-primary">Añadir Carrito</a>
               </div>
             </div>
             <div class="card" style="width: 17rem;">
-              <img src="@/assets/peak_oil_01.jpg" alt="hola" class="card-img-top" >
+              <img src="@/assets/dixit-2-quest.png" alt="hola" class="card-img-top" >
               <div class="card-body">
-                <h5 class="card-title">Peak Oil</h5>
-                <p class="card-text">{{card.alor}}</p>
+                <h5 class="card-title">{{Nombre}}</h5>
+                <p class="card-text">{{Valor}}</p>
                 <a href="#" class="btn btn-primary">Añadir Carrito</a>
               </div>
+            </div>
+            <div class="card" style="width: 17rem;">
+              <img src="@/assets/dixit-3-journey.png" alt="hola" class="card-img-top" >
+              <div class="card-body">
+                <h5 class="card-title">{{Nombre}}</h5>
+                <p class="card-text">{{Valor}}</p>
+                <a href="#" class="btn btn-primary">Añadir Carrito</a>
+              </div>
+              
             </div>
         </div>
     </div>
@@ -43,9 +44,14 @@
 <script>
 
 export default {
-  name: 'Uno',
+  name: 'Dos',
   data(){
-     
+     /* Articulos:[{ 
+          imagen: "@/assets/mario.png",
+          Nombre:'MARIO',
+          Valor: 15000
+      }]*/
+      
   },
   props:{
       Id:{
@@ -60,10 +66,7 @@ export default {
       Valor:{
           type: Number,
       },
-      card:{
-      type:Object,
-      default: () => {},
-    },
+      
   }
 }
 </script>
